@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // print numbers
+        for(var i=1;i<=10;i++){
+            console.log(i);
+        }
+        //even numbers
+        for(var a=1;a<=20;a++){
+            if(a%2==0){
+                console.log(a+" is an even number");
+            }
+        }
+        //multiples of 5
+        for(var a=1;a<=50;a++){
+            if(a%5==0){
+                console.log(a +" is Multiples of 5")
+            }
+        }
+
+        //sum of a value
+        var sum=0;
+
+        for(a=1;a<=100;a++){
+            sum+=a;
+        }
+        console.log(sum);
+
+        //reverse value
+
+        for(i=10;i>=1;i--){
+            console.log(i);
+        }
+
+        //fact
+        var p=+prompt("Enter a number")
+        var mul=1;
+        for( a=0 ; a<p ; a++){
+            mul = mul * (p - a);
+        }
+        console.log(p + '! = ' + mul);
+        
+    </script>
+</body>
+</html>
